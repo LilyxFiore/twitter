@@ -100,7 +100,7 @@ header{
 }
 
 .col-central{
-  width: 44%;
+  width: 45%;
   margin: 0 12px;
   border: 1px solid #CCD6DD;
   float: left;
@@ -110,6 +110,32 @@ header{
   border: 1px solid #CCD6DD;
   height: 200px;
   background: linear-gradient(180deg, rgba(0,0,0,0) 50%, white 50%, white 100%), url("../img/girl.jpg");
+}
+
+.profile-title{
+  position: absolute;
+  color:#657786;
+  font-size: 10px;
+  bottom:16%;
+}
+
+.profile-text{
+  position: absolute;
+  color:#1DA1F2;
+  font-size: 18px;
+  bottom: 5%;
+}
+
+.grey{
+  color:#657786;
+}
+
+.light-blue{
+  color:#1DA1F2;
+}
+
+.absolute{
+  position:absolute;
 }
 
 .name{
@@ -130,4 +156,41 @@ header{
   border-radius: 8px;
   top: 35%;
   left: 7px;
+}
+
+/* section post*/
+.posts{
+  position: relative;
+  padding: 14px 10px 10px 32px;
+  background-color: #E8F5FD;
+  height: 60px;
+}
+
+.input-post{
+  position: relative;
+  width: 90%;
+  margin: 16px 0;
+  top: -12px;
+  padding: 4px;
+}
+
+.camera{
+  position: absolute;
+  right: 24px;
+  top: 25px;
+}
+
+.post{
+  padding: 4px;
+}
+
+.post-text{
+  font-size: 14px;
+  float: left;
+  margin: 5px;
+}
+
+.post-icons{
+  margin: 4px;
+  clear:both;
 }
