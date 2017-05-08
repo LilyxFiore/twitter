@@ -1,0 +1,133 @@
+*{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  margin-left: 75px;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  height: 46px;
+  font-size: 13px;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+.icon-bird{
+  color: #1DA1F2;
+  position: absolute;
+  left: 50%;
+  top: 8px;
+}
+
+.line {
+  display: inline-block;
+  margin-right: -4px;
+}
+
+.line>a {
+  color: #66757f;
+  text-decoration: none;
+  display: block;
+  padding: 0 16px 0 6px;
+}
+
+.line:hover>a, .active>a {
+  border-bottom: 5px solid #0084b4;
+  height: 46px;
+}
+
+.line>a>span{
+  margin-top: 6px;
+}
+
+.right{
+  float: right;
+}
+
+.search{
+  border: 2px solid #e6ecf0;
+  border-radius: 24px;
+  padding: 7px 10px;
+  margin-right: 12px;
+}
+
+#search{
+  border: 0;
+  outline: none;
+  padding: 2px;
+}
+
+.nav-right{
+  position: absolute;
+  top: 3px;
+  right: 12px;
+  display: inline-flex;
+  margin-right: 90px;
+}
+
+.icon-user{
+  color: #657786;
+  background-color: #CCD6DD;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.bt-twitter{
+  width: 100px;
+  height: 35px;
+  color: white;
+  background-color: #339CC3;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+}
+
+.content{
+  position: absolute;
+  width: 80%;
+  top: 46px;
+  margin: 12px 10%;
+}
+
+.col-lateral{
+  margin: auto;
+  width: 22%;
+  float: left;
+}
+
+.col-central{
+  width: 44%;
+  margin: 0 12px;
+  border: 1px solid #CCD6DD;
+  float: left;
+}
+
+.profile{
+  border: 1px solid #CCD6DD;
+  height: 200px;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 50%, white 50%, white 100%), url("../img/girl.jpg");
+}
+
+.name{
+  position: absolute;
+  bottom: 25%;
+  left: 8%;
+  font-size: 18px;
+  white-space: pre-line;
+}
+
+.photo{
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-image: url("../img/foto.jpg");
+  background-size: cover;
+  border: 3px solid white;
+  border-radius: 8px;
+  top: 35%;
+  left: 7px;
+}
