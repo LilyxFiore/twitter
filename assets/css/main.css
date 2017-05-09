@@ -14,6 +14,33 @@ header{
   height: 46px;
   font-size: 13px;
   border-bottom: 1px solid rgba(0,0,0,0.15);
+  z-index: 100;
+  background-color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+.content{
+  position: absolute;
+  width: 90%;
+  top: 46px;
+  margin: 12px 5%;
+}
+
+.col-lateral{
+  margin: auto;
+  width: 25%;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.col-central{
+  width: 45%;
+  margin: 0 12px;
+  border: 1px solid #CCD6DD;
+  float: left;
 }
 
 .icon-bird{
@@ -46,6 +73,7 @@ header{
 
 .right{
   float: right;
+  margin-right: 10px;
 }
 
 .search{
@@ -84,26 +112,16 @@ header{
   font-weight: bold;
   border: 0;
   border-radius: 5px;
+  background-image: url("../img/tweet.png");
+  background-size: 32px;
+  background-repeat: no-repeat;
 }
 
-.content{
-  position: absolute;
-  width: 80%;
-  top: 46px;
-  margin: 12px 10%;
-}
-
-.col-lateral{
-  margin: auto;
-  width: 22%;
-  float: left;
-}
-
-.col-central{
-  width: 45%;
-  margin: 0 12px;
+/** column tendencias **/
+.tendencias{
+  margin-top: 10px;
   border: 1px solid #CCD6DD;
-  float: left;
+  padding: 10px;
 }
 
 /** column profile */
@@ -111,20 +129,21 @@ header{
   border: 1px solid #CCD6DD;
   height: 200px;
   background: linear-gradient(180deg, rgba(0,0,0,0) 50%, white 50%, white 100%), url("../img/girl.jpg");
+  background-size: cover;
 }
 
 .profile-title{
   position: absolute;
   color:#657786;
   font-size: 10px;
-  top: 45%;
+  top: 35%;
 }
 
 .profile-text{
   position: absolute;
   color:#1DA1F2;
   font-size: 18px;
-  top: 50%;
+  top: 38%;
 }
 
 .grey{
@@ -135,13 +154,17 @@ header{
   color:#1DA1F2;
 }
 
+.dark-blue{
+  color: #339CC3;
+}
+
 .absolute{
   position:absolute;
 }
 
 .name{
   position: absolute;
-  top: 30%;
+  top: 23%;
   left: 8%;
   font-size: 18px;
   white-space: pre-line;
@@ -177,7 +200,7 @@ header{
 
 .camera{
   position: absolute;
-  right: 24px;
+  right: 30px;
   top: 25px;
 }
 
@@ -196,4 +219,50 @@ header{
 .post-icons{
   margin: 4px;
   clear:both;
+}
+
+/*section follow*/
+.follows{
+  padding: 10px 10px;
+  padding-bottom: 10px;
+}
+
+.follow{
+  width: 100%;
+  overflow: auto;
+  padding: 4px;
+  padding-bottom: 10px;
+}
+
+.bt-user{
+  border: 1px solid #CCD6DD;
+  border-radius: 5px;
+  padding: 5px;
+  color: #1DA1F2;
+  margin-top: 5px;
+}
+
+.font12{
+  font-size: 12px;
+}
+
+.font14{
+  font-size: 14px;
+}
+
+.link{
+    margin: 10px 5px;
+}
+
+.link:hover{
+  color: #1DA1F2;
+  text-decoration: underline;
+}
+
+.border{
+  border: 1px solid #CCD6DD;
+}
+
+.border-top{
+  border-top: 1px solid #CCD6DD;
 }
